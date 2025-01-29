@@ -194,9 +194,14 @@ button:focus{
         padding-right: 1rem;
     }
 
+    .parent-div{
+        display: block;
+    }
+
     .left-inner-div h1 {
         font-size: 28px;
         width: 100%;
+        text-align: center;
     }
 
     .links a {
@@ -206,13 +211,16 @@ button:focus{
     .Right-inner-div {
         width: 100%;
         padding: 20px;
-        margin-left: 0;
-        margin-top: 0;
+        margin: 36rem auto;
     }
 
     .rows {
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .rows input, .Referral input{
+        width: 29rem;
     }
 
     .box {
@@ -224,6 +232,7 @@ button:focus{
     }
 
     button {
+        width: 29rem;
         font-size: 16px;
         padding: 12px;
     }
@@ -238,7 +247,7 @@ button:focus{
 /* Tablet (Landscape) and small screens */
 @media (min-width: 577px) and (max-width: 768px) {
     .content {
-        padding-left: 3rem;
+        padding-left: 1rem;
         padding-right: 3rem;
     }
 
@@ -249,13 +258,16 @@ button:focus{
 
     .left-inner-div h1 {
         font-size: 35px;
+        text-align: center;
     }
 
     .Right-inner-div {
+        margin-top: 33rem;
         width: 100%;
         padding: 30px;
-        margin-left: 0;
-    }
+        margin: 36rem auto;
+        }
+    
 
     .rows {
         flex-direction: column;
@@ -266,6 +278,10 @@ button:focus{
         width: 100%;
     }
 
+    .rows input, .Referral input{
+        width: 34rem;
+    }
+
     .bottom {
         font-size: 15px;
     }
@@ -273,6 +289,7 @@ button:focus{
     button {
         font-size: 18px;
         padding: 15px;
+        width: 34rem;
     }
 }
 
